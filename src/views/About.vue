@@ -1,10 +1,10 @@
 <template>
-  <div id="home" :class="mode">
+  <div id="home" class="about" :class="mode">
     <h1 class="title" :mode="mode">BeatFul</h1>
-    <todo-list v-if="isHidden"></todo-list>
+    <!--<todo-list v-if="isHidden"></todo-list>
     <button v-on:click="isHidden = !isHidden">
       <i class="fas fa-edit eye"></i>
-    </button>
+    </button>-->
     <div
       class="hamburger"
       @click="hamburgerOpen = !hamburgerOpen"
@@ -39,12 +39,12 @@
 
 <script>
 import Nav from "../components/Nav";
-import TodoList from "../components/TodoList";
+//import TodoList from "../components/TodoList";
 export default {
   name: "home",
   components: {
     Nav,
-    TodoList,
+    //TodoList,
   },
   data() {
     return {
