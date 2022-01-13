@@ -14,7 +14,7 @@
   color: #2c3e50;
   width: 100vw;
   height: 900px;
-  background-color: #F6F6F6;
+  background: #f1eff6;
   transition: background 0.3s ease-in-out;
   margin-top: -27px;
 }
@@ -35,7 +35,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
   background-position: 0 81%;
-  box-shadow: -6px -6px 12px 6px #F6F6F6 inset;
+  box-shadow: -6px -2px 6px 4px #f1eff6 inset;
   transition: 0.4s;
 }
 .dark .back-image {
@@ -440,12 +440,12 @@ button:hover {
 .songs {
   width: 94%;
   margin: 0 auto;
-  margin-top: -10px;
+  margin-top: -40px;
 }
 .song2 {
   width: 20%;
-  font-size: 16px;
-  margin-bottom: 90px;
+  font-size: 18px;
+  margin-top: 70px;
 }
 .songs button:hover {
   opacity: 1;
