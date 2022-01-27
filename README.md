@@ -4,14 +4,6 @@
 <img src="/src/assets/screen/home.png" />
 
 
-## Tech and tools used
-<p align="left">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-</p>
-
-
 <!--## Demo
 ### 🚀 [vercel.app](https://dashboard-website.vercel.app)-->
 
@@ -28,6 +20,15 @@ npm run serve
 ```sh
 npm run lint
 ```
+
+
+## Tech and tools used
+<p align="left">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+</p>
+
 
 #Showcase
 <img src="/src/assets/screen/home_dark.png" />
