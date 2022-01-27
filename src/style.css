@@ -119,9 +119,8 @@
 }
 .player {
   position: absolute;
-  margin-top: 10px;
   left: 2%;
-  
+  bottom: 4%;
   width: 48%;
   height: 180px;
   transition: 0.5s;
@@ -644,14 +643,15 @@ button:hover {
     width: 86%;
   }
   .playlist .song {
-    font-size: 18px;
+    width: 100%;
+    font-size: 16px;
     margin-bottom: 7px;
   }
   .playlist .song:last-of-type {
     margin-bottom: 10px;
   }
   .playing-dur {
-    font-size: 16px;
+    font-size: 14px;
   }
   .player {
     display: none;

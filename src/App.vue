@@ -32,6 +32,11 @@
   background-color: #a2b29f;
   color: #f6f6f6;
 }
+#mainer a.router-link-exact-active {
+  border-radius: 17px;
+  background-color: #a2b29f;
+  color: #f6f6f6;
+}
 @media screen and (max-width: 980px) {
   #mainer {
     margin-top: -3px;
