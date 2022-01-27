@@ -1,8 +1,8 @@
 <h1 align="center">Welcome to Beatful 👋</h1>
 <h2 align="center">Simple music players with Lo-fi sounds</h2>
 
-![image](/src/assets/screen/screen_11.png)
-![image](/src/assets/screen/screen_11_dark.png)
+<img align="left" src="/src/assets/screen/screen_11.png" width="48%" />
+<img src="/src/assets/screen/screen_11_dark.png" width="48%" />
 
 
 ## Tech and tools used
