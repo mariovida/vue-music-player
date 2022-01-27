@@ -2,6 +2,7 @@
 <h2 align="center">Simple music players with Lo-fi sounds</h2>
 
 ![image](/src/assets/screen/screen_11.png)
+![image](/src/assets/screen/screen_11_dark.png)
 
 
 ## Tech and tools used
