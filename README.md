@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to Beatful 👋</h1>
 <h2 align="center">Simple music players with Lo-fi sounds</h2>
 
-<img src="/src/assets/screen/home.png" width="90%" />
+<img src="/src/assets/screen/home.png" />
 
 
 ## Tech and tools used
@@ -30,9 +30,9 @@ npm run lint
 ```
 
 #Showcase
-<img src="/src/assets/screen/home_dark.png" width="90%" />
-<img src="/src/assets/screen/songs.png" width="90%" />
-<img src="/src/assets/screen/todo.png" width="90%" />
+<img src="/src/assets/screen/home_dark.png" />
+<img src="/src/assets/screen/songs.png" />
+<img src="/src/assets/screen/todo.png" />
 
 
 ## Mobile version
