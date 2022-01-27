@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to Beatful 👋</h1>
-<h2 align="center">Simple music players with Lo-fi sounds</h2>
+<h2 align="center">Simple music player with Lo-fi sounds</h2>
 
 <img src="/src/assets/screen/home.png" />
 
