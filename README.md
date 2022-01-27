@@ -4,8 +4,8 @@
 <img src="/src/assets/screen/home.png" />
 
 
-<!--## Demo
-### 🚀 [vercel.app](https://dashboard-website.vercel.app)-->
+## Demo
+### 🚀 [vercel.app](https://beatful.vercel.app)
 
 
 ## Install
