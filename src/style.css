@@ -598,8 +598,8 @@ button:hover {
   #home h1 {
     justify-content: left;
     padding-top: 65px;
-    margin-left: 11%;
-    font-size: 52px;
+    margin-left: 6%;
+    font-size: 3em;
   }
   .back-image {
     min-height: 30px;
