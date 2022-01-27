@@ -28,3 +28,5 @@ npm run serve
 ```sh
 npm run lint
 ```
+
+## Mobile version
