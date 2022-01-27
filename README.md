@@ -3,6 +3,8 @@
 
 <img src="/src/assets/screen/home.png" />
 
+<h3 align="center">✔️ Finished</h3>
+
 
 ## Demo
 ### 🚀 [vercel.app](https://beatful.vercel.app)
