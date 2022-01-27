@@ -18,7 +18,7 @@ export default {
 <style>
 .toggle {
   position: relative;
-  left: 50px;
+  left: 150px;
   bottom: -3px;
   display: inline-block;
   width: 55px;
