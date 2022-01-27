@@ -37,5 +37,5 @@ npm run lint
 
 
 ## Mobile version
-<img src="/src/assets/screen/mobile_light.png" width="48%" />
-<img src="/src/assets/screen/mobie_dark.png" width="48%" />
+<img src="/src/assets/screen/mobile_light.png" width="47%" />
+<img src="/src/assets/screen/mobile_dark.png" width="47%" />
