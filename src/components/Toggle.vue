@@ -50,20 +50,17 @@ export default {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-
 input:checked + .toggler {
   background: #a2b29f;
 }
 input:focus + toggler {
   box-shadow: 0 0 2px #2196f3;
 }
-
 input:checked + .toggler:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
-
 .toggler.round {
   background-color: #363636;
   border-radius: 34px;
