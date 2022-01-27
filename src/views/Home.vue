@@ -18,6 +18,7 @@
       <div class="droper-content" :class="hamburgerOpen ? 'dropic' : ''">
         <router-link to="/">HOME</router-link>
         <router-link to="/songs">SONGS</router-link>
+        <router-link to="/contact">CONTACT</router-link>
         <router-view />
       </div>
 
@@ -65,7 +66,7 @@
       </div>
 
       <p class="listen">
-        Simple music player that puts very little between you and new artists.
+        Beatful puts very little between you and music.
       </p>
     </div>
     <!--<div class="" id="clock">
@@ -143,16 +144,10 @@ export default {
     return {
       mode: "light",
       hamburgerOpen: false,
-      menuOpen: false,
       current: {},
       index: 0,
       isPlaying: false,
-      darkActive: true,
-      h: "",
-      m: "",
-      s: "",
       isHidden: false,
-      nightMode: false,
       barWidth: null,
       duration: null,
       currentTime: null,
@@ -243,11 +238,6 @@ export default {
       player: new Audio(),
     };
   },
-  watch: {
-    nightMode: function () {
-      localStorage.setItem("nightMode", JSON.stringify(this.nightMode));
-    },
-  },
   methods: {
     updateScroll() {
       this.scrollPosition = window.scrollY;
@@ -259,32 +249,16 @@ export default {
         this.mode = "dark";
       }
     },
-    updateClock: function () {
-      let now = new Date();
-      this.h = this.leftPad("" + now.getHours());
-      this.m = this.leftPad("" + now.getMinutes());
-      this.s = this.leftPad("" + now.getSeconds());
-    },
-    leftPad: function (str) {
-      const leftPad = "00";
-      return leftPad.substring(0, leftPad.length - str.length) + str;
-    },
-    onImageLoaded: function () {
-      this.imgLoaded = true;
-    },
     play(song) {
       if (typeof song.src != "undefined") {
+        //ukoliko je pritisnuta pjesma koja već svira, krenuti će ispočetka
         this.current = song;
         this.player.src = this.current.src;
       }
       this.player.play();
       this.player.addEventListener("ended", function () {
-        this.index++;
-        if (this.index > this.songs.length - 1) {
-          this.index = 0;
-        }
-        this.current = this.songs[this.index];
-        this.play(this.current);
+        this.player.pause();
+        this.player.next();
       });
       this.isPlaying = true;
     },
@@ -332,25 +306,9 @@ export default {
       this.duration = durmin + ":" + dursec;
       this.currentTime = curmin + ":" + cursec;
     },
-    updateBar(x) {
-      let progress = this.$refs.progress;
-      let maxduration = this.audio.duration;
-      let position = x - progress.offsetLeft;
-      let percentage = (100 * position) / progress.offsetWidth;
-      if (percentage > 100) {
-        percentage = 100;
-      }
-      if (percentage < 0) {
-        percentage = 0;
-      }
-      this.barWidth = percentage + "%";
-      this.circleLeft = percentage + "%";
-      this.player.currentTime = (maxduration * percentage) / 100;
-    },
   },
   mounted() {
     window.addEventListener("scroll", this.updateScroll);
-    setInterval(this.updateClock, 30);
   },
   created() {
     window.addEventListener("keyup", this.keyPress);
@@ -359,7 +317,6 @@ export default {
 
     this.current = this.songs[this.index];
     this.player.src = this.current.src;
-    this.nightMode = JSON.parse(localStorage.getItem("nightMode"));
 
     this.player.ontimeupdate = function () {
       vm.generateTime();
