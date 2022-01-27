@@ -30,7 +30,7 @@ npm run lint
 </p>
 
 
-#Showcase
+## Showcase
 <img src="/src/assets/screen/home_dark.png" />
 <img src="/src/assets/screen/songs.png" />
 <img src="/src/assets/screen/todo.png" />
