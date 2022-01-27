@@ -41,3 +41,7 @@ npm run lint
 ## Mobile version
 <img align="left" src="/src/assets/screen/mobile_light.png" width="48%" />
 <img src="/src/assets/screen/mobile_dark.png" width="48%" />
+
+
+## Show your support
+<p align="left">Give a ⭐️ if this project helped you!</p>
