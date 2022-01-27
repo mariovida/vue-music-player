@@ -18,7 +18,7 @@ export default {
 <style>
 .toggle {
   position: relative;
-  left: 150px;
+  left: 50px;
   bottom: -3px;
   display: inline-block;
   width: 55px;
@@ -70,7 +70,7 @@ input:checked + .toggler:before {
 }
 @media screen and (max-width: 780px) {
   .toggle {
-    left: 70px;
+    left: 85px;
     bottom: 0;
     top: 28px;
   }
